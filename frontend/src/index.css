@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-green: #2e7d32;
+    --primary-green-dark: #1b5e20;
+    --primary-green-light: #e8f5e9;
+    --accent-amber: #f59e0b;
+    --accent-amber-dark: #b45309;
+    --accent-amber-light: #fef3c7;
+    --bg-offwhite: #fafaf7;
+  }
+
+  body {
+    background-color: var(--bg-offwhite);
+    color: #1c1917;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Accessible touch targets for rural touchscreen phones/tablets */
+button, input, select, textarea {
+  min-height: 44px;
+}
+
+/* Custom scrollbar for multi-grade rotation tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1ee;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* ==========================================================================
+   Print Stylesheet for Clean Lesson Plan & Teaching Guide Printing
+   Ensures only the pedagogical teaching content prints (no app UI screenshots)
+   ========================================================================== */
+@media print {
+  @page {
+    margin: 12mm 15mm;
+    size: A4 portrait;
+  }
+
+  /* Hide navigation, sidebar, filter bars, action buttons, modals backdrop */
+  nav,
+  aside,
+  header,
+  footer,
+  .no-print,
+  button,
+  .print-hidden,
+  .modal-backdrop {
+    display: none !important;
+  }
+
+  body, html {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-size: 10.5pt !important;
+    line-height: 1.4 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  #root, main {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* If a print modal or printable teaching plan container is open */
+  .printable-lesson-plan-modal {
+    position: static !important;
+    inset: auto !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    overflow: visible !important;
+  }
+
+  .printable-lesson-sheet {
+    box-shadow: none !important;
+    border: 1px solid #d1d5db !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .break-inside-avoid {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+
+  th, td {
+    border: 1px solid #9ca3af !important;
+    padding: 6px 8px !important;
+  }
+}
+

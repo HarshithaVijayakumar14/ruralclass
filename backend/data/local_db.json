@@ -1,0 +1,876 @@
+{
+  "classrooms": [
+    {
+      "id": "445e711c-58f8-4962-abda-bb136259821b",
+      "created_at": "2026-10-31T01:18:30.942Z",
+      "updated_at": "2026-10-31T01:18:30.942Z",
+      "name": "science",
+      "school_name": "Govt Higher Primary School",
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "subjects": [
+        "Environmental Studies (EVS)",
+        "Mathematics",
+        "Language"
+      ],
+      "daily_minutes": 60,
+      "period_count": 6,
+      "break_duration": 10,
+      "materials": [
+        "Chalkboard & Colored Chalk",
+        "Student Slates & Chalk",
+        "Tamarind Seeds / Pebbles (Counting Aids)",
+        "Textbooks & Workbooks"
+      ],
+      "language": "en",
+      "teacher_id": "teacher-1793409438533-whibg1"
+    },
+    {
+      "id": "74c2978e-fcd2-4aab-9e33-20224e2d66b3",
+      "created_at": "2026-10-31T01:20:13.737Z",
+      "updated_at": "2026-10-31T01:20:13.737Z",
+      "name": "social",
+      "school_name": "Govt Higher Primary School",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "subjects": [
+        "Environmental Studies (EVS)",
+        "Mathematics",
+        "Language"
+      ],
+      "daily_minutes": 60,
+      "period_count": 6,
+      "break_duration": 10,
+      "materials": [
+        "Chalkboard & Colored Chalk",
+        "Student Slates & Chalk",
+        "Tamarind Seeds / Pebbles (Counting Aids)",
+        "Textbooks & Workbooks"
+      ],
+      "language": "en",
+      "teacher_id": "teacher-1793409438533-whibg1"
+    }
+  ],
+  "students": [
+    {
+      "id": "6d566995-b6cd-40dd-b5b9-22fa8d6a1f73",
+      "created_at": "2026-10-31T01:19:22.288Z",
+      "updated_at": "2026-10-31T01:19:22.288Z",
+      "name": "sd",
+      "grade": 1,
+      "roll_number": "101",
+      "attendance_status": "present",
+      "reading_level": "developing",
+      "math_level": "developing",
+      "overall_competency": 50,
+      "classroom_id": "445e711c-58f8-4962-abda-bb136259821b",
+      "teacher_id": "teacher-1793409438533-whibg1"
+    },
+    {
+      "id": "299021fc-bfe7-4770-bd65-aa4672a61aea",
+      "created_at": "2026-10-31T01:19:22.288Z",
+      "updated_at": "2026-10-31T01:19:22.288Z",
+      "name": "asdf",
+      "grade": 1,
+      "roll_number": "102",
+      "attendance_status": "present",
+      "reading_level": "developing",
+      "math_level": "developing",
+      "overall_competency": 50,
+      "classroom_id": "445e711c-58f8-4962-abda-bb136259821b",
+      "teacher_id": "teacher-1793409438533-whibg1"
+    },
+    {
+      "id": "928e5673-7750-4731-aed6-0e1d5789e3e4",
+      "created_at": "2026-10-31T01:19:22.288Z",
+      "updated_at": "2026-10-31T01:19:22.288Z",
+      "name": "asd",
+      "grade": 1,
+      "roll_number": "103",
+      "attendance_status": "present",
+      "reading_level": "developing",
+      "math_level": "developing",
+      "overall_competency": 50,
+      "classroom_id": "445e711c-58f8-4962-abda-bb136259821b",
+      "teacher_id": "teacher-1793409438533-whibg1"
+    },
+    {
+      "id": "1c31c5ca-7d41-43d4-a609-1ec4be823f1e",
+      "created_at": "2026-10-31T01:20:35.909Z",
+      "updated_at": "2026-10-31T01:22:54.281Z",
+      "name": "wer",
+      "grade": 5,
+      "roll_number": "501",
+      "attendance_status": "absent",
+      "reading_level": "developing",
+      "math_level": "developing",
+      "overall_competency": 50,
+      "classroom_id": "74c2978e-fcd2-4aab-9e33-20224e2d66b3",
+      "teacher_id": "teacher-1793409438533-whibg1"
+    },
+    {
+      "id": "4cfb8941-c944-4544-abe1-62c17215e5a6",
+      "created_at": "2026-10-31T01:20:35.909Z",
+      "updated_at": "2026-10-31T01:22:54.142Z",
+      "name": "df",
+      "grade": 5,
+      "roll_number": "502",
+      "attendance_status": "present",
+      "reading_level": "developing",
+      "math_level": "developing",
+      "overall_competency": 50,
+      "classroom_id": "74c2978e-fcd2-4aab-9e33-20224e2d66b3",
+      "teacher_id": "teacher-1793409438533-whibg1"
+    },
+    {
+      "id": "15bf0f2a-36eb-4d06-9b13-36f8482b5946",
+      "created_at": "2026-10-31T01:20:35.909Z",
+      "updated_at": "2026-10-31T01:22:54.217Z",
+      "name": "ghj",
+      "grade": 5,
+      "roll_number": "503",
+      "attendance_status": "present",
+      "reading_level": "developing",
+      "math_level": "developing",
+      "overall_competency": 50,
+      "classroom_id": "74c2978e-fcd2-4aab-9e33-20224e2d66b3",
+      "teacher_id": "teacher-1793409438533-whibg1"
+    }
+  ],
+  "attendance": [],
+  "lesson_plans": [
+    {
+      "id": "e7386778-8aeb-4123-bcfd-e572d3c60df1",
+      "created_at": "2026-10-31T01:19:38.095Z",
+      "updated_at": "2026-10-31T01:19:38.095Z",
+      "classroom_id": "445e711c-58f8-4962-abda-bb136259821b",
+      "title": "Multi-Grade Science (Environmental Studies): Plants, Roots, and Soil Conservation (Pedagogical Rule-Based Draft)",
+      "subject": "Science (Environmental Studies)",
+      "topic": "Plants, Roots, and Soil Conservation",
+      "grades": [
+        1,
+        2,
+        3
+      ],
+      "duration_minutes": 60,
+      "planning_mode": "common_theme",
+      "status": "draft",
+      "content": {
+        "title": "Multi-Grade Science (Environmental Studies): Plants, Roots, and Soil Conservation (Pedagogical Rule-Based Draft)",
+        "summary": "Structured 60-minute multi-grade plan for Grades 1, 2, 3 on \"Plants, Roots, and Soil Conservation\" using zero-cost rural TLM.",
+        "common_theme": "Foundational concepts of Plants, Roots, and Soil Conservation explored through observation, slate work, and peer collaboration.",
+        "grade_plans": [
+          {
+            "grade": 1,
+            "learning_objective": "Grade 1 students understand key age-appropriate foundations of Plants, Roots, and Soil Conservation through concrete manipulatives.",
+            "key_concept": "Essential grade-level core principles of Plants, Roots, and Soil Conservation.",
+            "direct_instruction": "Teacher demonstrates Plants, Roots, and Soil Conservation concepts using chalkboard sketches and real-world rural specimens.",
+            "independent_activity": "Students copy and complete 3 slate practice drills based on Plants, Roots, and Soil Conservation.",
+            "peer_learning_activity": "Partner review using Student Slates & Chalk to test comprehension.",
+            "zero_cost_tlm": [
+              "Chalkboard & Colored Chalk",
+              "Student Slates & Chalk",
+              "Tamarind Seeds / Pebbles (Counting Aids)"
+            ],
+            "formative_check": [
+              "Identify 1 key fact about Plants, Roots, and Soil Conservation on your slate",
+              "Solve the sample question written on the left side of chalkboard"
+            ]
+          },
+          {
+            "grade": 2,
+            "learning_objective": "Grade 2 students understand key age-appropriate foundations of Plants, Roots, and Soil Conservation through concrete manipulatives.",
+            "key_concept": "Essential grade-level core principles of Plants, Roots, and Soil Conservation.",
+            "direct_instruction": "Teacher demonstrates Plants, Roots, and Soil Conservation concepts using chalkboard sketches and real-world rural specimens.",
+            "independent_activity": "Students copy and complete 3 slate practice drills based on Plants, Roots, and Soil Conservation.",
+            "peer_learning_activity": "Partner review using Student Slates & Chalk to test comprehension.",
+            "zero_cost_tlm": [
+              "Chalkboard & Colored Chalk",
+              "Student Slates & Chalk",
+              "Tamarind Seeds / Pebbles (Counting Aids)"
+            ],
+            "formative_check": [
+              "Identify 1 key fact about Plants, Roots, and Soil Conservation on your slate",
+              "Solve the sample question written on the left side of chalkboard"
+            ]
+          },
+          {
+            "grade": 3,
+            "learning_objective": "Grade 3 students understand key age-appropriate foundations of Plants, Roots, and Soil Conservation through concrete manipulatives.",
+            "key_concept": "Essential grade-level core principles of Plants, Roots, and Soil Conservation.",
+            "direct_instruction": "Teacher demonstrates Plants, Roots, and Soil Conservation concepts using chalkboard sketches and real-world rural specimens.",
+            "independent_activity": "Students copy and complete 3 slate practice drills based on Plants, Roots, and Soil Conservation.",
+            "peer_learning_activity": "Partner review using Student Slates & Chalk to test comprehension.",
+            "zero_cost_tlm": [
+              "Chalkboard & Colored Chalk",
+              "Student Slates & Chalk",
+              "Tamarind Seeds / Pebbles (Counting Aids)"
+            ],
+            "formative_check": [
+              "Identify 1 key fact about Plants, Roots, and Soil Conservation on your slate",
+              "Solve the sample question written on the left side of chalkboard"
+            ]
+          }
+        ],
+        "rotation_schedule": [
+          {
+            "time_range": "0–8 min",
+            "duration_minutes": 8,
+            "teacher_focus_grade": "All Grades",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "teacher-led",
+                "task": "Common introduction to \"Plants, Roots, and Soil Conservation\". Teacher poses real-world local rural question and sets learning targets on blackboard."
+              },
+              {
+                "grade": 2,
+                "mode": "teacher-led",
+                "task": "Common introduction to \"Plants, Roots, and Soil Conservation\". Teacher poses real-world local rural question and sets learning targets on blackboard."
+              },
+              {
+                "grade": 3,
+                "mode": "teacher-led",
+                "task": "Common introduction to \"Plants, Roots, and Soil Conservation\". Teacher poses real-world local rural question and sets learning targets on blackboard."
+              }
+            ]
+          },
+          {
+            "time_range": "8–23 min",
+            "duration_minutes": 15,
+            "teacher_focus_grade": "Grade 1",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "teacher-led",
+                "task": "Direct teacher instruction for Grade 1 on \"Plants, Roots, and Soil Conservation\": concept modeling, chalkboard diagrams, and guided slate drills."
+              },
+              {
+                "grade": 2,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 3,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              }
+            ]
+          },
+          {
+            "time_range": "23–38 min",
+            "duration_minutes": 15,
+            "teacher_focus_grade": "Grade 2",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 2,
+                "mode": "teacher-led",
+                "task": "Direct teacher instruction for Grade 2 on \"Plants, Roots, and Soil Conservation\": concept modeling, chalkboard diagrams, and guided slate drills."
+              },
+              {
+                "grade": 3,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              }
+            ]
+          },
+          {
+            "time_range": "38–53 min",
+            "duration_minutes": 15,
+            "teacher_focus_grade": "Grade 3",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 2,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 3,
+                "mode": "teacher-led",
+                "task": "Direct teacher instruction for Grade 3 on \"Plants, Roots, and Soil Conservation\": concept modeling, chalkboard diagrams, and guided slate drills."
+              }
+            ]
+          },
+          {
+            "time_range": "53–60 min",
+            "duration_minutes": 7,
+            "teacher_focus_grade": "All Grades",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "teacher-led",
+                "task": "Teacher conducts whole-room slate check for \"Plants, Roots, and Soil Conservation\". All students hold up slates simultaneously."
+              },
+              {
+                "grade": 2,
+                "mode": "teacher-led",
+                "task": "Teacher conducts whole-room slate check for \"Plants, Roots, and Soil Conservation\". All students hold up slates simultaneously."
+              },
+              {
+                "grade": 3,
+                "mode": "teacher-led",
+                "task": "Teacher conducts whole-room slate check for \"Plants, Roots, and Soil Conservation\". All students hold up slates simultaneously."
+              }
+            ]
+          }
+        ],
+        "zero_cost_tlm": [
+          "Chalkboard & Colored Chalk",
+          "Student Slates & Chalk",
+          "Tamarind Seeds / Pebbles (Counting Aids)",
+          "Textbooks & Workbooks"
+        ],
+        "remedial_suggestions": [
+          {
+            "grade": 1,
+            "recommendation": "Provide extra slate diagramming and pair struggling students with a peer mentor."
+          },
+          {
+            "grade": 2,
+            "recommendation": "Provide extra slate diagramming and pair struggling students with a peer mentor."
+          },
+          {
+            "grade": 3,
+            "recommendation": "Provide extra slate diagramming and pair struggling students with a peer mentor."
+          }
+        ],
+        "status": "draft",
+        "note": "Generated via deterministic pedagogical rules because: GEMINI_API_KEY is not configured in backend/.env"
+      },
+      "zero_cost_tlm": [
+        "Chalkboard & Colored Chalk",
+        "Student Slates & Chalk",
+        "Tamarind Seeds / Pebbles (Counting Aids)",
+        "Textbooks & Workbooks"
+      ],
+      "teacher_id": "teacher-1793409438533-whibg1"
+    },
+    {
+      "id": "3dc28eb5-b5f5-417d-a738-03ca89980488",
+      "created_at": "2026-10-31T01:20:53.634Z",
+      "updated_at": "2026-10-31T01:20:55.678Z",
+      "classroom_id": "74c2978e-fcd2-4aab-9e33-20224e2d66b3",
+      "title": "Multi-Grade Science (Environmental Studies): Plants, Roots, and Soil Conservation (Pedagogical Rule-Based Draft)",
+      "subject": "Science (Environmental Studies)",
+      "topic": "Plants, Roots, and Soil Conservation",
+      "grades": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "duration_minutes": 60,
+      "planning_mode": "common_theme",
+      "status": "approved",
+      "content": {
+        "title": "Multi-Grade Science (Environmental Studies): Plants, Roots, and Soil Conservation (Pedagogical Rule-Based Draft)",
+        "summary": "Structured 60-minute multi-grade plan for Grades 1, 2, 3, 4, 5, 6 on \"Plants, Roots, and Soil Conservation\" using zero-cost rural TLM.",
+        "common_theme": "Foundational concepts of Plants, Roots, and Soil Conservation explored through observation, slate work, and peer collaboration.",
+        "grade_plans": [
+          {
+            "grade": 1,
+            "learning_objective": "Grade 1 students understand key age-appropriate foundations of Plants, Roots, and Soil Conservation through concrete manipulatives.",
+            "key_concept": "Essential grade-level core principles of Plants, Roots, and Soil Conservation.",
+            "direct_instruction": "Teacher demonstrates Plants, Roots, and Soil Conservation concepts using chalkboard sketches and real-world rural specimens.",
+            "independent_activity": "Students copy and complete 3 slate practice drills based on Plants, Roots, and Soil Conservation.",
+            "peer_learning_activity": "Partner review using Student Slates & Chalk to test comprehension.",
+            "zero_cost_tlm": [
+              "Chalkboard & Colored Chalk",
+              "Student Slates & Chalk",
+              "Tamarind Seeds / Pebbles (Counting Aids)"
+            ],
+            "formative_check": [
+              "Identify 1 key fact about Plants, Roots, and Soil Conservation on your slate",
+              "Solve the sample question written on the left side of chalkboard"
+            ]
+          },
+          {
+            "grade": 2,
+            "learning_objective": "Grade 2 students understand key age-appropriate foundations of Plants, Roots, and Soil Conservation through concrete manipulatives.",
+            "key_concept": "Essential grade-level core principles of Plants, Roots, and Soil Conservation.",
+            "direct_instruction": "Teacher demonstrates Plants, Roots, and Soil Conservation concepts using chalkboard sketches and real-world rural specimens.",
+            "independent_activity": "Students copy and complete 3 slate practice drills based on Plants, Roots, and Soil Conservation.",
+            "peer_learning_activity": "Partner review using Student Slates & Chalk to test comprehension.",
+            "zero_cost_tlm": [
+              "Chalkboard & Colored Chalk",
+              "Student Slates & Chalk",
+              "Tamarind Seeds / Pebbles (Counting Aids)"
+            ],
+            "formative_check": [
+              "Identify 1 key fact about Plants, Roots, and Soil Conservation on your slate",
+              "Solve the sample question written on the left side of chalkboard"
+            ]
+          },
+          {
+            "grade": 3,
+            "learning_objective": "Grade 3 students understand key age-appropriate foundations of Plants, Roots, and Soil Conservation through concrete manipulatives.",
+            "key_concept": "Essential grade-level core principles of Plants, Roots, and Soil Conservation.",
+            "direct_instruction": "Teacher demonstrates Plants, Roots, and Soil Conservation concepts using chalkboard sketches and real-world rural specimens.",
+            "independent_activity": "Students copy and complete 3 slate practice drills based on Plants, Roots, and Soil Conservation.",
+            "peer_learning_activity": "Partner review using Student Slates & Chalk to test comprehension.",
+            "zero_cost_tlm": [
+              "Chalkboard & Colored Chalk",
+              "Student Slates & Chalk",
+              "Tamarind Seeds / Pebbles (Counting Aids)"
+            ],
+            "formative_check": [
+              "Identify 1 key fact about Plants, Roots, and Soil Conservation on your slate",
+              "Solve the sample question written on the left side of chalkboard"
+            ]
+          },
+          {
+            "grade": 4,
+            "learning_objective": "Grade 4 students understand key age-appropriate foundations of Plants, Roots, and Soil Conservation through concrete manipulatives.",
+            "key_concept": "Essential grade-level core principles of Plants, Roots, and Soil Conservation.",
+            "direct_instruction": "Teacher demonstrates Plants, Roots, and Soil Conservation concepts using chalkboard sketches and real-world rural specimens.",
+            "independent_activity": "Students copy and complete 3 slate practice drills based on Plants, Roots, and Soil Conservation.",
+            "peer_learning_activity": "Partner review using Student Slates & Chalk to test comprehension.",
+            "zero_cost_tlm": [
+              "Chalkboard & Colored Chalk",
+              "Student Slates & Chalk",
+              "Tamarind Seeds / Pebbles (Counting Aids)"
+            ],
+            "formative_check": [
+              "Identify 1 key fact about Plants, Roots, and Soil Conservation on your slate",
+              "Solve the sample question written on the left side of chalkboard"
+            ]
+          },
+          {
+            "grade": 5,
+            "learning_objective": "Grade 5 students understand key age-appropriate foundations of Plants, Roots, and Soil Conservation through concrete manipulatives.",
+            "key_concept": "Essential grade-level core principles of Plants, Roots, and Soil Conservation.",
+            "direct_instruction": "Teacher demonstrates Plants, Roots, and Soil Conservation concepts using chalkboard sketches and real-world rural specimens.",
+            "independent_activity": "Students copy and complete 3 slate practice drills based on Plants, Roots, and Soil Conservation.",
+            "peer_learning_activity": "Partner review using Student Slates & Chalk to test comprehension.",
+            "zero_cost_tlm": [
+              "Chalkboard & Colored Chalk",
+              "Student Slates & Chalk",
+              "Tamarind Seeds / Pebbles (Counting Aids)"
+            ],
+            "formative_check": [
+              "Identify 1 key fact about Plants, Roots, and Soil Conservation on your slate",
+              "Solve the sample question written on the left side of chalkboard"
+            ]
+          },
+          {
+            "grade": 6,
+            "learning_objective": "Grade 6 students understand key age-appropriate foundations of Plants, Roots, and Soil Conservation through concrete manipulatives.",
+            "key_concept": "Essential grade-level core principles of Plants, Roots, and Soil Conservation.",
+            "direct_instruction": "Teacher demonstrates Plants, Roots, and Soil Conservation concepts using chalkboard sketches and real-world rural specimens.",
+            "independent_activity": "Students copy and complete 3 slate practice drills based on Plants, Roots, and Soil Conservation.",
+            "peer_learning_activity": "Partner review using Student Slates & Chalk to test comprehension.",
+            "zero_cost_tlm": [
+              "Chalkboard & Colored Chalk",
+              "Student Slates & Chalk",
+              "Tamarind Seeds / Pebbles (Counting Aids)"
+            ],
+            "formative_check": [
+              "Identify 1 key fact about Plants, Roots, and Soil Conservation on your slate",
+              "Solve the sample question written on the left side of chalkboard"
+            ]
+          }
+        ],
+        "rotation_schedule": [
+          {
+            "time_range": "0–8 min",
+            "duration_minutes": 8,
+            "teacher_focus_grade": "All Grades",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "teacher-led",
+                "task": "Common introduction to \"Plants, Roots, and Soil Conservation\". Teacher poses real-world local rural question and sets learning targets on blackboard."
+              },
+              {
+                "grade": 2,
+                "mode": "teacher-led",
+                "task": "Common introduction to \"Plants, Roots, and Soil Conservation\". Teacher poses real-world local rural question and sets learning targets on blackboard."
+              },
+              {
+                "grade": 3,
+                "mode": "teacher-led",
+                "task": "Common introduction to \"Plants, Roots, and Soil Conservation\". Teacher poses real-world local rural question and sets learning targets on blackboard."
+              },
+              {
+                "grade": 4,
+                "mode": "teacher-led",
+                "task": "Common introduction to \"Plants, Roots, and Soil Conservation\". Teacher poses real-world local rural question and sets learning targets on blackboard."
+              },
+              {
+                "grade": 5,
+                "mode": "teacher-led",
+                "task": "Common introduction to \"Plants, Roots, and Soil Conservation\". Teacher poses real-world local rural question and sets learning targets on blackboard."
+              },
+              {
+                "grade": 6,
+                "mode": "teacher-led",
+                "task": "Common introduction to \"Plants, Roots, and Soil Conservation\". Teacher poses real-world local rural question and sets learning targets on blackboard."
+              }
+            ]
+          },
+          {
+            "time_range": "8–15 min",
+            "duration_minutes": 7,
+            "teacher_focus_grade": "Grade 1",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "teacher-led",
+                "task": "Direct teacher instruction for Grade 1 on \"Plants, Roots, and Soil Conservation\": concept modeling, chalkboard diagrams, and guided slate drills."
+              },
+              {
+                "grade": 2,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 3,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 4,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 5,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 6,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              }
+            ]
+          },
+          {
+            "time_range": "15–22 min",
+            "duration_minutes": 7,
+            "teacher_focus_grade": "Grade 2",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 2,
+                "mode": "teacher-led",
+                "task": "Direct teacher instruction for Grade 2 on \"Plants, Roots, and Soil Conservation\": concept modeling, chalkboard diagrams, and guided slate drills."
+              },
+              {
+                "grade": 3,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 4,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 5,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 6,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              }
+            ]
+          },
+          {
+            "time_range": "22–29 min",
+            "duration_minutes": 7,
+            "teacher_focus_grade": "Grade 3",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 2,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 3,
+                "mode": "teacher-led",
+                "task": "Direct teacher instruction for Grade 3 on \"Plants, Roots, and Soil Conservation\": concept modeling, chalkboard diagrams, and guided slate drills."
+              },
+              {
+                "grade": 4,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 5,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 6,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              }
+            ]
+          },
+          {
+            "time_range": "29–36 min",
+            "duration_minutes": 7,
+            "teacher_focus_grade": "Grade 4",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 2,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 3,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 4,
+                "mode": "teacher-led",
+                "task": "Direct teacher instruction for Grade 4 on \"Plants, Roots, and Soil Conservation\": concept modeling, chalkboard diagrams, and guided slate drills."
+              },
+              {
+                "grade": 5,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              },
+              {
+                "grade": 6,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              }
+            ]
+          },
+          {
+            "time_range": "36–43 min",
+            "duration_minutes": 7,
+            "teacher_focus_grade": "Grade 5",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 2,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 3,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 4,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 5,
+                "mode": "teacher-led",
+                "task": "Direct teacher instruction for Grade 5 on \"Plants, Roots, and Soil Conservation\": concept modeling, chalkboard diagrams, and guided slate drills."
+              },
+              {
+                "grade": 6,
+                "mode": "peer",
+                "task": "Peer-guided collaborative practice with bench partner: buddy quiz or manipulative counting on \"Plants, Roots, and Soil Conservation\"."
+              }
+            ]
+          },
+          {
+            "time_range": "43–53 min",
+            "duration_minutes": 10,
+            "teacher_focus_grade": "Grade 6",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 2,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 3,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 4,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 5,
+                "mode": "independent",
+                "task": "Independent slate drill and workbook problem solving on \"Plants, Roots, and Soil Conservation\" following earlier teacher modeling."
+              },
+              {
+                "grade": 6,
+                "mode": "teacher-led",
+                "task": "Direct teacher instruction for Grade 6 on \"Plants, Roots, and Soil Conservation\": concept modeling, chalkboard diagrams, and guided slate drills."
+              }
+            ]
+          },
+          {
+            "time_range": "53–60 min",
+            "duration_minutes": 7,
+            "teacher_focus_grade": "All Grades",
+            "student_assignments": [
+              {
+                "grade": 1,
+                "mode": "teacher-led",
+                "task": "Teacher conducts whole-room slate check for \"Plants, Roots, and Soil Conservation\". All students hold up slates simultaneously."
+              },
+              {
+                "grade": 2,
+                "mode": "teacher-led",
+                "task": "Teacher conducts whole-room slate check for \"Plants, Roots, and Soil Conservation\". All students hold up slates simultaneously."
+              },
+              {
+                "grade": 3,
+                "mode": "teacher-led",
+                "task": "Teacher conducts whole-room slate check for \"Plants, Roots, and Soil Conservation\". All students hold up slates simultaneously."
+              },
+              {
+                "grade": 4,
+                "mode": "teacher-led",
+                "task": "Teacher conducts whole-room slate check for \"Plants, Roots, and Soil Conservation\". All students hold up slates simultaneously."
+              },
+              {
+                "grade": 5,
+                "mode": "teacher-led",
+                "task": "Teacher conducts whole-room slate check for \"Plants, Roots, and Soil Conservation\". All students hold up slates simultaneously."
+              },
+              {
+                "grade": 6,
+                "mode": "teacher-led",
+                "task": "Teacher conducts whole-room slate check for \"Plants, Roots, and Soil Conservation\". All students hold up slates simultaneously."
+              }
+            ]
+          }
+        ],
+        "zero_cost_tlm": [
+          "Chalkboard & Colored Chalk",
+          "Student Slates & Chalk",
+          "Tamarind Seeds / Pebbles (Counting Aids)",
+          "Textbooks & Workbooks"
+        ],
+        "remedial_suggestions": [
+          {
+            "grade": 1,
+            "recommendation": "Provide extra slate diagramming and pair struggling students with a peer mentor."
+          },
+          {
+            "grade": 2,
+            "recommendation": "Provide extra slate diagramming and pair struggling students with a peer mentor."
+          },
+          {
+            "grade": 3,
+            "recommendation": "Provide extra slate diagramming and pair struggling students with a peer mentor."
+          },
+          {
+            "grade": 4,
+            "recommendation": "Provide extra slate diagramming and pair struggling students with a peer mentor."
+          },
+          {
+            "grade": 5,
+            "recommendation": "Provide extra slate diagramming and pair struggling students with a peer mentor."
+          },
+          {
+            "grade": 6,
+            "recommendation": "Provide extra slate diagramming and pair struggling students with a peer mentor."
+          }
+        ],
+        "status": "draft",
+        "note": "Generated via deterministic pedagogical rules because: GEMINI_API_KEY is not configured in backend/.env"
+      },
+      "zero_cost_tlm": [
+        "Chalkboard & Colored Chalk",
+        "Student Slates & Chalk",
+        "Tamarind Seeds / Pebbles (Counting Aids)",
+        "Textbooks & Workbooks"
+      ],
+      "teacher_id": "teacher-1793409438533-whibg1"
+    }
+  ],
+  "student_progress": [],
+  "assignments": [],
+  "timetables": [],
+  "teacher_profiles": [],
+  "timetable_blocks": [],
+  "attendance_records": [
+    {
+      "id": "3a4f8f56-2169-4623-9d59-99e3b16758c5",
+      "created_at": "2026-10-31T01:22:53.892Z",
+      "updated_at": "2026-10-31T01:22:53.890Z",
+      "teacher_id": "teacher-1793409438533-whibg1",
+      "classroom_id": "74c2978e-fcd2-4aab-9e33-20224e2d66b3",
+      "student_id": "4cfb8941-c944-4544-abe1-62c17215e5a6",
+      "date": "2026-10-31",
+      "status": "present",
+      "notes": null
+    },
+    {
+      "id": "fef7c6c8-fa0d-452d-a55d-63167c5e1af9",
+      "created_at": "2026-10-31T01:22:53.892Z",
+      "updated_at": "2026-10-31T01:22:53.890Z",
+      "teacher_id": "teacher-1793409438533-whibg1",
+      "classroom_id": "74c2978e-fcd2-4aab-9e33-20224e2d66b3",
+      "student_id": "15bf0f2a-36eb-4d06-9b13-36f8482b5946",
+      "date": "2026-10-31",
+      "status": "present",
+      "notes": null
+    },
+    {
+      "id": "5484f813-1a96-449d-b9a1-79c7b42a4df1",
+      "created_at": "2026-10-31T01:22:53.892Z",
+      "updated_at": "2026-10-31T01:22:53.891Z",
+      "teacher_id": "teacher-1793409438533-whibg1",
+      "classroom_id": "74c2978e-fcd2-4aab-9e33-20224e2d66b3",
+      "student_id": "1c31c5ca-7d41-43d4-a609-1ec4be823f1e",
+      "date": "2026-10-31",
+      "status": "absent",
+      "notes": null
+    }
+  ]
+}
