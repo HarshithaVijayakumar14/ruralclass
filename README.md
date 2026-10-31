@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RuralClass — Multi-Grade Planning & Student Support System
 
 > **"One teacher. Many grades. Zero planning stress."**  
@@ -190,3 +191,6 @@ Double-click `start.bat` or run:
    - `GEMINI_API_KEY`: Your Google Gemini API Key.
    - `GEMINI_MODEL`: `gemini-2.5-flash`.
 7. Deploy.
+=======
+# ruralclass
+>>>>>>> d2ada5996bcc678053b6e766066dd62ab3c2f687
