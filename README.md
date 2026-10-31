@@ -1,10 +1,9 @@
-<<<<<<< HEAD
+
 # RuralClass — Multi-Grade Planning & Student Support System
 
 > **"One teacher. Many grades. Zero planning stress."**  
 > A real, deployment-ready full-stack progressive web app engineered specifically for rural primary schools across India where a single government teacher instructs students across multiple grades (Grades 1–8) simultaneously in one physical classroom.
 
----
 
 ## 1. Core Architectural Pillars & Pedagogical Invariants
 
@@ -32,7 +31,6 @@
    - Precached PWA shell via `vite-plugin-pwa` (Workbox) and persistent client storage via IndexedDB (`idb`).
    - All roster edits, attendance toggles, and lesson plans function completely offline and queue into an IndexedDB mutation queue that reconciles with Supabase PostgreSQL via `/api/sync` when connectivity resumes.
 
----
 
 ## 2. Technology Stack
 
@@ -52,7 +50,6 @@
 | **PWA Service Worker**| `vite-plugin-pwa` (Workbox) | Offline precaching, app manifest, and standalone mobile support |
 | **Voice & Audio** | Web Speech & Web Audio API | Speech-to-text dictation, text-to-speech, and 2-tone school bell audio chime |
 
----
 
 ## 3. Implemented Pages (20 Functional Routes)
 
@@ -77,7 +74,6 @@
 19. **Impact & SDGs** (`/impact`): Alignment with UN SDG 4 (Quality Education) and rural classroom impact metrics.
 20. **Research & Methodology** (`/research`): Educational science, ASER citations, and mathematical proof of the single-teacher invariant.
 
----
 
 ## 4. How to Configure and Run
 
@@ -109,7 +105,7 @@ SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 # Google Gemini API (from Google AI Studio at https://aistudio.google.com/)
 GEMINI_API_KEY=your_gemini_api_key
 GEMINI_MODEL=gemini-2.5-flash
-```
+
 
 #### Frontend (`frontend/.env`):
 Create `frontend/.env` (copy from `frontend/.env.example`):
@@ -118,11 +114,10 @@ VITE_SUPABASE_URL=https://your-project.supabase.co
 VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 VITE_API_URL=http://localhost:5000/api
 VITE_API_BASE_URL=/api
-```
+
 
 *(Note: If external credentials are not yet configured, RuralClass runs safely in local/offline mode with rule-based pedagogical fallbacks, IndexedDB local persistence, and zero errors!)*
 
----
 
 ### Step 3: Run Automated Tests & Production Build
 
@@ -130,17 +125,15 @@ VITE_API_BASE_URL=/api
 ```powershell
 cd backend
 npm test
-```
 *Result: 11 passing tests covering single-teacher mathematical invariant, collision detection, duration checks, and Zod schemas.*
 
 #### Run Frontend Production Build:
 ```powershell
 cd frontend
 npm run build
-```
+
 *Result: Production Vite + PWA bundle generated in `dist/` with zero errors.*
 
----
 
 ### Step 4: Launch Application
 
@@ -148,7 +141,7 @@ npm run build
 Double-click `start.bat` or run:
 ```powershell
 .\start.bat
-```
+
 
 #### Manual Launch:
 1. **Start Backend (Port 5000):**
@@ -163,7 +156,6 @@ Double-click `start.bat` or run:
    ```
 3. Open your browser at **http://localhost:5173**.
 
----
 
 ## 5. Deployment Guide
 
@@ -191,6 +183,6 @@ Double-click `start.bat` or run:
    - `GEMINI_API_KEY`: Your Google Gemini API Key.
    - `GEMINI_MODEL`: `gemini-2.5-flash`.
 7. Deploy.
-=======
+
 # ruralclass
 >>>>>>> d2ada5996bcc678053b6e766066dd62ab3c2f687
